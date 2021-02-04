@@ -1,0 +1,29 @@
+name: my_places
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  mobx:
+  flutter_mobx:
+  provider:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  json_serializable:
+  build_runner:
+  mobx_codegen:
+
+
+flutter:
+  uses-material-design: true
